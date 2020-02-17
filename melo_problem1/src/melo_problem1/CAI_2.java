@@ -65,6 +65,7 @@ public class CAI_2 {
 	}
 	
 	void displayIncorrectResponse() {
+		message = sr.nextInt((max - min) + 1) + min;
 		switch(message) {
 		case 1:
 			System.out.println("No. Please try again.");
